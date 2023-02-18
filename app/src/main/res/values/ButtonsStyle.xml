@@ -8,9 +8,11 @@
         <item name="android:bottom">5dp</item>
         <item name="android:spacing">10dp</item>
         <item name="android:textColor">#FFFF</item>
+        <item name="android:background">@drawable/rounded</item>
+
         <item name="android:textSize">24sp</item>
         <item name="android:textFontWeight">700</item>
         <item name="android:radius">10dp</item>
-        <item name="android:onClick">number</item>
+        <item name="android:onClick">ClickedNumber</item>
     </style>
 </resources>

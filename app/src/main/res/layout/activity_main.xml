@@ -56,7 +56,7 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="match_parent"
             android:padding="15dp"
             app:layout_constraintHeight_percent="0.2">
 
@@ -65,39 +65,36 @@
                 android:id="@+id/buttonAC"
                 style="@style/ettounaniButton"
                 android:text="AC"
-                android:onClick="clearAll"
+                android:background="@drawable/rounded"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@id/button9"
                 app:layout_constraintStart_toEndOf="@id/button7"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <Button
-                android:id="@+id/buttonRemove"
-                style="@style/ettounaniButton"
-                android:onClick="removeOne"
-                android:text="rem"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toEndOf="@id/button8"
-                app:layout_constraintTop_toTopOf="parent" />
+
 
             <Button
                 android:id="@+id/buttonPercent"
                 style="@style/ettounaniButton"
                 android:text="%"
-                android:onClick="percent"
+                android:background="@drawable/rounded"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@id/button8"
                 app:layout_constraintTop_toTopOf="parent" />
-
             <Button
                 android:id="@+id/buttonDevisi"
                 style="@style/ettounaniButton"
-                android:text="/"
                 android:onClick="operation"
+                android:text="/"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@id/button8"
                 app:layout_constraintTop_toTopOf="parent" />
-
+            <ImageView
+                android:id="@+id/buttonRemove"
+                android:layout_width="74dp"
+                android:layout_height="60dp"
+                android:contentDescription="@null"
+                android:src="@drawable/ic" />
         </TableRow>
 
         <TableRow
@@ -264,7 +261,6 @@
                 android:id="@+id/buttonRes"
                 style="@style/ettounaniButton"
                 android:text="="
-                android:onClick="result"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toEndOf="@id/button8"
                 app:layout_constraintTop_toTopOf="parent" />

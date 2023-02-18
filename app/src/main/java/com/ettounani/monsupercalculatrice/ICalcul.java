@@ -1,10 +1,14 @@
 package com.ettounani.monsupercalculatrice;
 
+import android.view.View;
+
 public interface ICalcul {
     void clearAll();
-    void number();
+    void ClickedNumber(View view);
     void result();
     void removeOne();
-    void operation();
+    void pointToDouble();
+    void operation(View view);
     void percent();
+    void ShowInScreen();
 }
