@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="ettounaniButton" parent="android:Widget.ImageButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:top">5dp</item>
+        <item name="android:bottom">5dp</item>
+        <item name="android:spacing">10dp</item>
+        <item name="android:textColor">#FFFF</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textFontWeight">700</item>
+        <item name="android:radius">10dp</item>
+        <item name="android:onClick">number</item>
+    </style>
+</resources>
